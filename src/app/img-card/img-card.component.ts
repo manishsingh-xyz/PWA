@@ -42,5 +42,12 @@ export class ImgCardComponent implements OnInit {
       this.button.text = 'Sorry, you\'re offline';
       this.button.disabled = true;
     }
+    this.generateSrc();
   }
+  public generateSrc(): void {
+    this.src = this.image.api + this.image.message +
+      '?size=' + this.image.fontsize +
+      '&ts=' + Date.now();
+  }
+
 }
