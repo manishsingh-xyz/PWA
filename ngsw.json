@@ -1,0 +1,43 @@
+{
+  "configVersion": 1,
+  "index": "/PWA/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/PWA/favicon.ico",
+        "/PWA/index.html",
+        "/PWA/inline.318b50c57b4eba3d437b.bundle.js",
+        "/PWA/main.ebaa311553deff369226.bundle.js",
+        "/PWA/polyfills.3047d45fb443bc2432f1.bundle.js",
+        "/PWA/styles.806e9b9eccf9468810ec.bundle.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/PWA/assets/icon-128x128.png",
+        "/PWA/assets/icon-256x256.png",
+        "/PWA/assets/icon-512x512.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/PWA/inline.318b50c57b4eba3d437b.bundle.js": "998c6060446975e566fd17509558ddc68d72eec3",
+    "/PWA/assets/icon-128x128.png": "35c2a76ccd305ec156a96a568b28f94ebeec1070",
+    "/PWA/main.ebaa311553deff369226.bundle.js": "fd9f5413cffb69d3aa00a7200c6a5f718c0a5000",
+    "/PWA/assets/icon-256x256.png": "01ee61da270cfc6b9275ca0bc993f1ac15238846",
+    "/PWA/polyfills.3047d45fb443bc2432f1.bundle.js": "deb3bb32039edd76a8f1c0a02d1e98148d8f03f7",
+    "/PWA/assets/icon-512x512.png": "c91ea198d17c16ee8ec6eb3378d6de0b9108aab5",
+    "/PWA/styles.806e9b9eccf9468810ec.bundle.css": "2d54a334bf71713644c3c2f6aeed7da1ab2a647c",
+    "/PWA/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/PWA/index.html": "851b28caaae31721465af1a207d6ce7a55dbc5df"
+  }
+}
