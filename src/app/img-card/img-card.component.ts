@@ -1,5 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-//import { CatImage  } from '../catClass';
+
+class CatImage {
+  message: string;
+  api: string;
+  fontsize: number;
+}
 
 @Component({
   selector: 'app-img-card',
